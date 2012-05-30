@@ -36,7 +36,7 @@
 #     javapermsize  => 256,
 #   }
 #
-class oae::app::server( $downloadurl = '',
+class oae::app::server( $downloadurl = 'http://oae-builds.sakaiproject.org:8080/job/oae-nakamura-incremental-build/lastBuild/org.sakaiproject.nakamura\$org.sakaiproject.nakamura.app/artifact/org.sakaiproject.nakamura/org.sakaiproject.nakamura.app/1.4.0-SNAPSHOT/org.sakaiproject.nakamura.app-1.4.0-SNAPSHOT.jar',
                         $jarsource   = '',
                         $java        = '/usr/bin/java',
                         $javamemorymax,
